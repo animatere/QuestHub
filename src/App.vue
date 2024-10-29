@@ -4,6 +4,9 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
+
+
+
   <header>
     <img
       alt="Vue logo"
@@ -14,7 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
     />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Da bist du ja!" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
