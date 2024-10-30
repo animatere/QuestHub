@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 </script>
 
 <template>
-
-
 
   <header>
     <img
