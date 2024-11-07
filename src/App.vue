@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/Welcome/HelloWorld.vue'
+import greetings from './components/Welcome/Greetings.vue'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 </script>
 
@@ -14,7 +14,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
             height="125"
         />
         <div class="wrapper">
-            <HelloWorld msg="Da bist du ja!" />
+            <greetings msg="Da bist du ja!" />
             <nav>
                 <RouterLink to="/">Home</RouterLink>
                 <RouterLink to="/about">About</RouterLink>
